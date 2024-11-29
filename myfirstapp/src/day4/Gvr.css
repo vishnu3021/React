@@ -1,0 +1,20 @@
+.maindiv{
+    color: blue;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 5px;
+}
+.avaliable{
+    border: 1vh dotted white;
+    border-collapse: collapse;
+    background-color: green;
+    color:black;
+}
+.unavaliable{
+    border: 1vh dotted yellow;
+    border-collapse: collapse;
+    background-color: red;
+
+}

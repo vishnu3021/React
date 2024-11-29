@@ -1,0 +1,9 @@
+table,td,tr,th,tbody,thead,tbody{
+  background-color: white;
+  border: 3px solid red;
+  border-collapse: collapse;
+  border-bottom-color: blue;
+  border-top-color: burlywood;
+  border-left-color: blueviolet;
+  border-right-color: brown;
+}
