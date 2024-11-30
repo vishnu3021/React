@@ -17,6 +17,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Api from "./day6/boot/home";
 import Accordion from './day7/Accordion';
 import Condrend from './day7/Conditional';
+// import Parent from './day8/parent/parent';
+import Condinal from './day8/condition/Condition';
+import Counter from './day8/counter'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,8 +52,18 @@ root.render(
 {/* <Card title='New 5g mobile'/> */}
 {/* <Api/> */}
 {/* date:27/11/2024 class code: */}
-<Accordion/>
-<Condrend/>
+{/* <Accordion/>
+<Condrend/> */}
+{/* date:28/11/2024 class code:  */}
+ {/* <Parent parentpage='im a parent page '/> */}
+ {/* note: topic CONDITIONAL RENDERING  */}
+ {/* <Condinal login="user"/> */}
+ {/* notes :
+ => in react , state  is an object which store the dynamic variables .They cand be user inputs / API response/calculation 
+ => Whene ever a data changes in a state then state can be update and then component can be re-render
+ */}
+  
+ <Counter />
 
 
  
