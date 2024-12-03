@@ -20,7 +20,8 @@ import Condrend from './day7/Conditional';
 // import Parent from './day8/parent/parent';
 import Condinal from './day8/condition/Condition';
 import Counter from './day8/counter'
-
+import Toggle from './day9/Toggle';
+import Toggles from './day9/Toogle2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -54,7 +55,7 @@ root.render(
 {/* date:27/11/2024 class code: */}
 {/* <Accordion/>
 <Condrend/> */}
-{/* date:28/11/2024 class code:  */}
+{/* date:28/11/2024 class code:   day8*/}
  {/* <Parent parentpage='im a parent page '/> */}
  {/* note: topic CONDITIONAL RENDERING  */}
  {/* <Condinal login="user"/> */}
@@ -63,7 +64,10 @@ root.render(
  => Whene ever a data changes in a state then state can be update and then component can be re-render
  */}
   
- <Counter />
+ {/* <Counter /> */}
+ {/* day9 Different examples for state updating in class component */}
+ {/* <Toggle/> */}
+ {/* <Toggles/> */}
 
 
  
