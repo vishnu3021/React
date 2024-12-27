@@ -15,7 +15,7 @@ Button=()=>{
 render() {
     return(<>
     <button onClick={this.Button}>{this.state.btmTxt} </button>
-    <h1>{this.state.nrmlTxt}</h1>
+    <h1>{this.state.nrmlTxt || this.state.btmTxt}</h1>
     </>
     );
 }

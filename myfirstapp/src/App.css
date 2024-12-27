@@ -37,3 +37,20 @@
     transform: rotate(360deg);
   }
 }
+.Links{
+  text-decoration: none;
+  color: wheat;
+}
+.Links:hover{
+  transform: translateY(20px);
+  color: darkblue;
+  font-size: 50px;
+}
+@keyframes Link{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

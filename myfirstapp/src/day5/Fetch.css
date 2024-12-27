@@ -1,9 +1,17 @@
 table,td,tr,th,tbody,thead,tbody{
-  background-color: white;
+  border:  2px solid red;
+  background-color: azure;
+
+  /* background-color: white;
   border: 3px solid red;
-  border-collapse: collapse;
+   border-collapse: collapse;
   border-bottom-color: blue;
   border-top-color: burlywood;
   border-left-color: blueviolet;
-  border-right-color: brown;
+  border-right-color: brown; */
+} 
+.container, table,td,tr{
+  color: blueviolet;
+  border: 3px solid red;
+  border-collapse: collapse;
 }

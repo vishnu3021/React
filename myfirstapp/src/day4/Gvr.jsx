@@ -4,6 +4,7 @@ import vishnu2 from '../image/5g.jpeg' //5g mobile
 import vishnu1 from '../image/R.jpeg' // mobile
 import laptop from "../image/laptop.jpg";
 import vishnu4 from '../image/watch.jpg';
+                //  using arrary 
 const product =[
     {
         model: 'mobile',

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Sample from "./day2/Sample"
@@ -9,6 +9,7 @@ import Footer from './day3/Footer';
 import Gallary from './day3/Gallary';
 import Comp from './day4/Gvr';
 import Fetch from './day5/Fetch'
+import Data from './day5/Data'
 import Props1 from "./day5/props/Props1"
 import Props2 from "./day5/props/Props2"
 import Props3 from "./day5/props/Props3";
@@ -20,20 +21,24 @@ import Condrend from './day7/Conditional';
 // import Parent from './day8/parent/parent';
 import Condinal from './day8/condition/Condition';
 import Counter from './day8/counter'
-import Toggle from './day9/Toggle';
-import Toggles from './day9/Toogle2';
+import Toggle from './day9_FormsClass/Toggle';
+import Toggles from './day9_FormsClass/Toogle2';
+import FormSubmit from './day9_FormsClass/formSubmit';
+import Food from './Food/Food';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Food/>
     {/* <App /> */}
     {/* <Sample/> */}
     {/* <Header/> */}
     {/* <Gallary/> */}
-    {/* <Footer/>  */}
+    {/* <Footer/>  */}  
     {/* <Comp/> */}
     {/* <P>fetch concept from react js</P> */}
     {/* <Fetch/> */}
+    {/* <Data/> */}
     {/* <p> Practice props from reactjs:</p> */}
     {/* <Props1 name='vishnu' city= 'knl'/>
     <Props1 name ='vardhan' city='hyd'/>
@@ -66,14 +71,12 @@ root.render(
   
  {/* <Counter /> */}
  {/* day9 Different examples for state updating in class component */}
- {/* <Toggle/> */}
+ {/* <Toggle/>  */}
  {/* <Toggles/> */}
-
+ {/* <FormSubmit/> */}
+ {/* <Card/> */}
 
  
-
-
-
   </React.StrictMode>
 );
 
