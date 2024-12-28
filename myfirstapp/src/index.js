@@ -18,7 +18,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Api from "./day6/boot/home";
 import Accordion from './day7/Accordion';
 import Condrend from './day7/Conditional';
-// import Parent from './day8/parent/parent';
+import Parent from './day8/parent/parent';
 import Condinal from './day8/condition/Condition';
 import Counter from './day8/counter'
 import Toggle from './day9_FormsClass/Toggle';
@@ -30,51 +30,51 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Food/>
-    {/* <App /> */}
-    {/* <Sample/> */}
-    {/* <Header/> */}
-    {/* <Gallary/> */}
-    {/* <Footer/>  */}  
-    {/* <Comp/> */}
+    <App />
+    <Sample/>
+    <Header/>
+    <Gallary/>
+    <Footer/>   
+    <Comp/>
     {/* <P>fetch concept from react js</P> */}
     {/* <Fetch/> */}
     {/* <Data/> */}
-    {/* <p> Practice props from reactjs:</p> */}
-    {/* <Props1 name='vishnu' city= 'knl'/>
+    <p> Practice props from reactjs:</p>
+    <Props1 name='vishnu' city= 'knl'/>
     <Props1 name ='vardhan' city='hyd'/>
-    <Props1 name = 'GVVR' city="Hyderbad"/> */}
-    {/*NOTE: implementing on class compount in jsx   */}
-    {/* <Props2 name=' VISHNU VARDHAN ' city='knl' role="front-end developer" application="application developer"/> */}
+    <Props1 name = 'GVVR' city="Hyderbad"/>
+    {/* NOTE: implementing on class compount in jsx   */}
+    <Props2 name=' VISHNU VARDHAN ' city='knl' role="front-end developer" application="application developer"/>
 
     {/* { creating child and implementing in jsx using functions} */}
-{/* <Props3>
+<Props3>
   <p>hello</p>
   <p>
   <h1>mobile</h1>
   <p>moto g85</p>
   <p>price : 18,000</p>
   </p>
-</Props3> */}
-{/* <Card title='New 5g mobile'/> */}
-{/* <Api/> */}
-{/* date:27/11/2024 class code: */}
-{/* <Accordion/>
-<Condrend/> */}
+</Props3>
+<Card title='New 5g mobile'/> 
+<Api/>
+{/*  date:27/11/2024 class code: */}
+<Accordion/>
+<Condrend/>
 {/* date:28/11/2024 class code:   day8*/}
- {/* <Parent parentpage='im a parent page '/> */}
+ <Parent parentpage='im a parent page '/>
  {/* note: topic CONDITIONAL RENDERING  */}
- {/* <Condinal login="user"/> */}
+ <Condinal login="user"/>
  {/* notes :
  => in react , state  is an object which store the dynamic variables .They cand be user inputs / API response/calculation 
  => Whene ever a data changes in a state then state can be update and then component can be re-render
  */}
   
- {/* <Counter /> */}
+ <Counter />
  {/* day9 Different examples for state updating in class component */}
- {/* <Toggle/>  */}
- {/* <Toggles/> */}
- {/* <FormSubmit/> */}
- {/* <Card/> */}
+ <Toggle/> 
+ <Toggles/>
+ <FormSubmit/>
+ <Card/>
 
  
   </React.StrictMode>
@@ -83,4 +83,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
